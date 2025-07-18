@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sohan Kumar Miryala - Portfolio</title>
+  <!-- Favicon and touch icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <!-- Website logo -->
+      <div class="logo">Sohan Kumar Miryala</div>
+      <!-- Mobile menu toggle button -->
+      <button id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-navigation">&#9776;</button>
+      <!-- Navigation links -->
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section about-section">
+      <div class="profile-photo-container">
+        <img src="https://i.ibb.co/0yFPQhVK/profile-photo.jpg" alt="Sohan Kumar Miryala" class="profile-photo" />
+      </div>
+      <div class="about-text">
+        <h1>Sohan Kumar Miryala</h1>
+        <p class="subtitle">Computer Science Engineering Undergraduate at SRM University, Chennai</p>
+        <p>
+          Passionate and results-driven with a strong foundation in programming, data analysis, and web development.
+          CGPA: 9.10. Specializing in Python, Java, and data analysis tools. Exploring AI, machine learning, and automation.
+          Active in leadership roles in NSS and DevTown.
+        </p>
+      </div>
+    </section>
+
+    <section id="education" class="section education-section">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>SRM University</h3>
+        <p>B.Tech in Computer Science Engineering, Chennai, Tamil Nadu</p>
+        <p>Expected Graduation: June 2026</p>
+        <p>CGPA: 9.10</p>
+      </div>
+      <div class="education-item">
+        <h3>Narayana Junior College</h3>
+        <p>XI - XII / 90% percentage, Hyderabad, Telangana</p>
+        <p>Graduation Date: Nov 2022</p>
+      </div>
+      <div class="education-item">
+        <h3>Narayana E-Techno School</h3>
+        <p>I - X / 100% percentage, Hyderabad, Telangana</p>
+        <p>Graduation Date: May 2022</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <h2>Technical Skills</h2>
+      <div class="skills-list">
+        <div>
+          <h3>Languages</h3>
+          <p>Python, Java</p>
+        </div>
+        <div>
+          <h3>Databases</h3>
+          <p>SQL, MySQL, MongoDB</p>
+        </div>
+        <div>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, WordPress</p>
+        </div>
+        <div>
+          <h3>Data Analytics & BI Tools</h3>
+          <p>Excel, Power BI, PowerPoint</p>
+        </div>
+        <div>
+          <h3>Programming Concepts</h3>
+          <p>Data Structures & Algorithms, Problem Solving</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Travell Booking Website</h3>
+        <p>Sep 2023 Nov 2023</p>
+        <p> A travel booking website is a digital platform that facilitates users in planning and booking various travel-related services, such as flights, hotels, car rentals, vacation packages, and more. It acts as a one-stop solution for travel enthusiasts, allowing them to compare options, access deals, and make secure bookings.</p>
+        <p><a href="https://github.com/sohan181204/TRAVEL-BOOKING-WEBSITE" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+      </div>
+      <div class="project-item">
+        <h3>Airline Ticket Price Analysis</h3>
+        <p>Sep 2024 – Nov 2024</p>
+        <p>A predictive analysis project that utilized Selenium, Pandas, and Matplotlib to extract and visualize dynamic pricing trends in the Indian aviation sector.</p>
+        <p><a href="https://github.com/sohan181204" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+      </div>
+      <div class="project-item">
+        <h3>AirFlow Canvas using OpenCV</h3>
+        <p>Jan 2025 – Mar 2025</p>
+        <p>Built a gesture-based painting application using MediaPipe and OpenCV. It tracks hand movements through a webcam to draw in real-time.</p>
+        <p><a href="https://github.com/sohan181204" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+      </div>
+      <div class="project-item">
+        <h3>Training & Placement Database Management System</h3>
+        <p>Sep 2023 – Nov 2023</p>
+        <p>The objective of a student database management system is to efficiently organize, store, retrieve, and manage information related to students. It tracks student progress, and generates reports for analysis and decision-making. Student Information Management, Academic Records, Attendance Tracking, Analytics and Reporting.</p>
+        <p><a href="https://github.com/sohan181204/Training-Placement-Database-Management-System.git" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+      </div>
+      <div class="project-item">
+        <h3>Object Detection</h3>
+        <p>Jan 2025 – Mar 2025</p>
+        <p>Developed a real-time object detection system using the YOLOv4-tiny model integrated with OpenCV's DNN module. The project focused on achieving fast and efficient performance, particularly on resource-constrained devices, by processing live video streams to accurately identify and localize multiple objects in real-time.</p>
+        <p><a href="https://github.com/sohan181204/Object_Detection" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+      </div>
+    </section>
+
+    <section id="certifications" class="section certifications-section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Walmart Global Tech – Advanced Software Engineering Job Simulation</li>
+        <li>Deloitte Australia – Data Analytics Job Simulation</li>
+        <li>Google – Google Ads Display Certification</li>
+        <li>Salesforce – AI Associate Certification</li>
+        <li>DevTown – Campus Ambassador Certificate</li>
+      </ul>
+    </section>
+
+    <section id="leadership" class="section leadership-section">
+      <h2>Leadership & Campus Involvement</h2>
+      <div class="leadership-item">
+        <h3>Campus Ambassador | DevTown</h3>
+        <p>Feb 2023 – Jul 2023 | Chennai, Tamil Nadu</p>
+        <p>I am the representative responsible for promoting Devtown's initiatives, workshops, programs, opportunities and helping raise awareness and encourage participation in various technical events and learning programs offered by Devtown.</p>
+      </div>
+      <div class="leadership-item">
+        <h3>NSS Member & Leader | SRM NSS</h3>
+        <p>Sep 2022 – May 2024</p>
+        <p>Led a team of NSS cadets in organizing community services such as awareness campaigns and cleanliness drives.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Connect With Me</h2>
+      <p>Email: <a href="mailto:sohankumarmiryala@gmail.com">sohankumarmiryala@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918639837136">+91 8639837136</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/miryala-sohan-kumar-5642a626a/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        <a href="https://github.com/sohan181204" target="_blank" rel="noopener noreferrer">GitHub</a> |
+        <a href="https://leetcode.com/u/Sohan_1812/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </p>
+      <form action="https://formspree.io/f/mayvkwqv" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required placeholder="Your email" />
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Sohan Kumar Miryala. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
